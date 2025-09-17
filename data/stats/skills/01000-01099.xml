@@ -84,6 +84,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases party members' Casting Spd. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases party members' Casting Spd. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">300 300 300</table>
 		<table name="#effectPoints">285 418 532</table>
 		<table name="#magicLevel">30 44 56</table>
 		<table name="#mAtkSpd">1.15 1.23 1.3</table>
@@ -97,7 +98,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="CASTING_TIME_DOWN" />
 		<set name="affectRange" val="1000" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -183,6 +184,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases alliance members' P. Atk. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases alliance members' P. Atk. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">300 300 300</table>
 		<table name="#effectPoints">285 379 457</table>
 		<table name="#magicLevel">30 40 48</table>
 		<table name="#mpConsume">84 111 138</table>
@@ -196,7 +198,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY_CLAN" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="PA_UP" />
 		<set name="affectRange" val="900" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -282,6 +284,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases alliance members' Casting Spd. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases alliance members' Casting Spd. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">300 300 300</table>
 		<table name="#effectPoints">379 457 532</table>
 		<table name="#magicLevel">40 48 56</table>
 		<table name="#mAtkSpd">1.15 1.23 1.3</table>
@@ -295,7 +298,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY_CLAN" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="CASTING_TIME_DOWN" />
 		<set name="affectRange" val="900" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -381,6 +384,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases alliance members' P. Def. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases alliance members' P. Def. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">300 300 300</table>
 		<table name="#effectPoints">331 418 495</table>
 		<table name="#magicLevel">35 44 52</table>
 		<table name="#mpConsume">96 123 150</table>
@@ -394,7 +398,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY_CLAN" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="PD_UP" />
 		<set name="affectRange" val="900" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -480,6 +484,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases party members' M. Def. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases party members' M. Def. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">300 300 300</table>
 		<table name="#effectPoints">204 379 495</table>
 		<table name="#magicLevel">20 40 52</table>
 		<table name="#mDef">1.15 1.23 1.3</table>
@@ -493,7 +498,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="MD_UP" />
 		<set name="affectRange" val="1000" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -579,6 +584,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases party members' P. Atk. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases party members' P. Atk. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">300 300 300</table>
 		<table name="#effectPoints">162 243 418</table>
 		<table name="#magicLevel">14 25 44</table>
 		<table name="#mpConsume">48 70 123</table>
@@ -592,7 +598,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="PA_UP" />
 		<set name="affectRange" val="1000" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -678,6 +684,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases alliance members' M. Def. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases alliance members' M. Def. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">300 300 300</table>
 		<table name="#effectPoints">379 457 532</table>
 		<table name="#magicLevel">40 48 56</table>
 		<table name="#mDef">1.15 1.23 1.3</table>
@@ -691,7 +698,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY_CLAN" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="MD_UP" />
 		<set name="affectRange" val="900" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -777,6 +784,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases party members' M. Def. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases party members' M. Def. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">300 300 300</table>
 		<table name="#effectPoints">204 285 379</table>
 		<table name="#magicLevel">20 30 40</table>
 		<table name="#mpConsume">62 84 111</table>
@@ -790,7 +798,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="PD_UP" />
 		<set name="affectRange" val="1000" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -876,6 +884,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases P. Def. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases P. Def. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">300 300 300</table>
 		<table name="#effectPoints">121 243 331</table>
 		<table name="#magicLevel">7 25 35</table>
 		<table name="#mpConsume">8 18 24</table>
@@ -889,7 +898,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="PD_UP" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -1601,6 +1610,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases resistance to attacks that cause bleeding. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases resistance to attacks that cause bleeding. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">300 300 300</table>
 		<table name="#effectPoints">379 457 532</table>
 		<table name="#magicLevel">40 48 56</table>
 		<table name="#mpConsume">28 35 41</table>
@@ -1614,7 +1624,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="RESIST_BLEEDING" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -1700,6 +1710,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases resistance to poison. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases resistance to poison. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">300 300 300</table>
 		<table name="#effectPoints">331 379 418</table>
 		<table name="#magicLevel">35 40 44</table>
 		<table name="#mpConsume">24 28 31</table>
@@ -1713,7 +1724,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="RESIST_POISON" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -1827,6 +1838,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases resistance to Hold, Sleep, Fear, and Mental attacks. Enchant Cost: MP consumption is decreased. Effect 4. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases resistance to Hold, Sleep, Fear, and Mental attacks. Enchant Cost: MP consumption is decreased. Effect 4. -->
 		<table name="#abnormalLevels">1 2 3 4</table>
+		<table name="#abnormalTime">3600 3600 300 300</table>
 		<table name="#effectPoints">243 379 457 532</table>
 		<table name="#magicLevel">25 40 48 56</table>
 		<table name="#mpConsume">18 28 35 41</table>
@@ -1838,14 +1850,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1035" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="RESIST_DERANGEMENT" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="#magicLevel" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1928,6 +1940,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases one's M. Def. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases one's M. Def. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">2 3</table>
+		<table name="#abnormalTime">3600 300</table>
 		<table name="#effectPoints">418 495</table>
 		<table name="#magicLevel">44 52</table>
 		<table name="#mDef">1.23 1.3</table>
@@ -1939,14 +1952,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1036" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="MD_UP" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="#magicLevel" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -2028,6 +2041,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases P. Def. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases P. Def. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 300</table>
 		<table name="#effectPoints">121 243 418</table>
 		<table name="#magicLevel">7 25 44</table>
 		<table name="#mpConsume">8 18 31</table>
@@ -2039,14 +2053,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1040" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="PD_UP" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="#magicLevel" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -2233,15 +2247,15 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1043" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="PARTY_MEMBER" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="1" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="HOLY_ATTACK" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="243" />
 		<set name="effectRange" val="900" />
 		<set name="element" val="4" /> <!-- Holy -->
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="25" />
 		<set name="mpConsume" val="18" />
@@ -2323,6 +2337,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases HP Regeneration. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases HP Regeneration. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 300</table>
 		<table name="#effectPoints">331 457 532</table>
 		<table name="#magicLevel">35 48 56</table>
 		<table name="#mpConsume">24 35 41</table>
@@ -2334,14 +2349,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1044" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="HP_REGEN_UP" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="#magicLevel" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -2426,6 +2441,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases maximum HP. Enchant Cost: MP consumption is decreased. Effect 6. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases maximum HP. Enchant Cost: MP consumption is decreased. Effect 6. -->
 		<table name="#abnormalLevels">1 2 3 4 5 6</table>
+		<table name="#abnormalTime">3600 3600 3600 3600 300 300</table>
 		<table name="#effectPoints">418 457 495 532 597 646</table>
 		<table name="#magicLevel">44 48 52 56 64 72</table>
 		<table name="#maxHp">1.1 1.15 1.2 1.25 1.3 1.35</table>
@@ -2437,14 +2453,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1045" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="MAX_HP_UP" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="#magicLevel" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -2562,6 +2578,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases maximum MP. Enchant Cost: MP consumption is decreased. Effect 6. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases maximum MP. Enchant Cost: MP consumption is decreased. Effect 6. -->
 		<table name="#abnormalLevels">1 2 3 4 5 6</table>
+		<table name="#abnormalTime">3600 3600 3600 3600 300 300</table>
 		<table name="#effectPoints">418 457 495 532 582 635</table>
 		<table name="#magicLevel">44 48 52 56 62 70</table>
 		<table name="#maxMp">1.1 1.15 1.2 1.25 1.3 1.35</table>
@@ -2573,14 +2590,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1048" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="MAX_MP_UP" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="#magicLevel" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -2747,6 +2764,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases M. Atk. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases M. Atk. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 300</table>
 		<table name="#effectPoints">243 418 495</table>
 		<table name="#magicLevel">25 44 52</table>
 		<table name="#mAtk">1.55 1.65 1.75</table>
@@ -2758,14 +2776,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1059" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="MA_UP" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="#magicLevel" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -2846,6 +2864,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily reduces P. Def., M. Def. and Evasion while increasing P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Can be used on one's party members. Enchant Cost: MP consumption is decreased. Effect 2. -->
 		<!-- Level 170 (+30 Cost): Temporarily reduces P. Def., M. Def. and Evasion while increasing P. Atk., M. Atk., Atk. Spd., Casting Spd. and Speed. Can be used on one's party members. Enchant Cost: MP consumption is decreased. Effect 2. -->
 		<table name="#abnormalLevels">1 2</table>
+		<table name="#abnormalTime">3600 300</table>
 		<table name="#effectPoints">331 495</table>
 		<table name="#magicLevel">35 52</table>
 		<table name="#mAtk">1.1 1.16</table>
@@ -2864,14 +2883,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1062" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="PARTY_MEMBER" />
+		<set name="targetType" val="ONE" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="BERSERKER" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="#magicLevel" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -3060,6 +3079,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases P. Atk. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases P. Atk. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 300</table>
 		<table name="#effectPoints">121 204 379</table>
 		<table name="#magicLevel">7 20 40</table>
 		<table name="#mpConsume">8 16 28</table>
@@ -3071,14 +3091,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1068" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="PA_UP" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="#magicLevel" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -3694,6 +3714,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases critical attack rate. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases critical attack rate. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 300</table>
 		<table name="#effectPoints">243 418 495</table>
 		<table name="#mpConsume">18 31 38</table>
 		<table name="#mpInitialConsume">5 8 10</table>
@@ -3704,14 +3725,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1077" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="CRITICAL_PROB_UP" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
@@ -3795,6 +3816,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily lowers the probability of magic being canceled due to damage taken taken. Enchant Cost: MP consumption is decreased. Effect 6. -->
 		<!-- Level 170 (+30 Cost): Temporarily lowers the probability of magic being canceled due to damage taken taken. Enchant Cost: MP consumption is decreased. Effect 6. -->
 		<table name="#abnormalLevels">1 2 3 4 5 6</table>
+		<table name="#abnormalTime">3600 3600 3600 3600 300 300</table>
 		<table name="#cancel">18 25 36 42 48 53</table>
 		<table name="#effectPoints">204 285 418 495 566 624</table>
 		<table name="#mpConsume">16 21 31 38 44 51</table>
@@ -3805,14 +3827,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1078" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="CANCEL_PROB_DOWN" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
@@ -4015,6 +4037,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases Casting Spd. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases Casting Spd. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 300</table>
 		<table name="#effectPoints">204 331 457</table>
 		<table name="#mAtkSpd">1.15 1.23 1.3</table>
 		<table name="#mpConsume">16 24 35</table>
@@ -4025,14 +4048,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1085" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="CASTING_TIME_DOWN" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="1500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
@@ -4112,6 +4135,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases Atk. Spd. Enchant Cost: MP consumption is decreased. Effect 2. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases Atk. Spd. Enchant Cost: MP consumption is decreased. Effect 2. -->
 		<table name="#abnormalLevels">1 2</table>
+		<table name="#abnormalTime">3600 300</table>
 		<table name="#effectPoints">418 495</table>
 		<table name="#mpConsume">31 38</table>
 		<table name="#mpInitialConsume">8 10</table>
@@ -4122,14 +4146,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1086" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="ATTACK_TIME_DOWN" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
@@ -4210,6 +4234,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases Evasion. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases Evasion. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 300</table>
 		<table name="#effectPoints">243 418 495</table>
 		<table name="#mpConsume">18 31 38</table>
 		<table name="#mpInitialConsume">5 8 10</table>
@@ -4220,14 +4245,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1087" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="AVOID_UP" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />

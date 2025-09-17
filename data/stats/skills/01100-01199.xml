@@ -3255,6 +3255,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases resistance to attack by wind. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases resistance to attack by wind. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 300</table>
 		<table name="#effectPoints">331 379 418</table>
 		<table name="#mpConsume">24 28 31</table>
 		<table name="#mpInitialConsume">6 7 8</table>
@@ -3265,14 +3266,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1189" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="ARMOR_WIND" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
@@ -3358,6 +3359,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases resistance to attacks by fire. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases resistance to attacks by fire. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 300</table>
 		<table name="#effectPoints">285 379 418</table>
 		<table name="#mpConsume">22 28 31</table>
 		<table name="#mpInitialConsume">5 7 8</table>
@@ -3368,14 +3370,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1191" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="ARMOR_FIRE" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />

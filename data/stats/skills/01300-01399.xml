@@ -111,6 +111,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases critical attack rate of magic attacks. Enchant Cost: MP consumption is decreased. Effect 2. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases critical attack rate of magic attacks. Enchant Cost: MP consumption is decreased. Effect 2. -->
 		<table name="#abnormalLevels">1 2</table>
+		<table name="#abnormalTime">3600 300</table>
 		<table name="#effectPoints">582 635</table>
 		<table name="#magicLevel">62 70</table>
 		<table name="#mCritRate">3 4</table>
@@ -122,14 +123,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1303" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="MAGIC_CRITICAL_UP" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="#magicLevel" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -211,6 +212,7 @@
 		<!-- Level 169 (+29 Cost): Temporarily increases shield defense power. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<!-- Level 170 (+30 Cost): Temporarily increases shield defense power. Enchant Cost: MP consumption is decreased. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 300</table>
 		<table name="#effectPoints">549 611 646</table>
 		<table name="#magicLevel">58 66 72</table>
 		<table name="#mpConsume">43 50 54</table>
@@ -222,14 +224,14 @@
 		<table name="#enchMagicLvl">76 76 76 77 77 77 78 78 78 79 79 79 80 80 80 81 81 81 82 82 82 83 83 83 84 84 84 85 85 85</table>
 		<set name="icon" val="icon.skill1304" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="SHIELD_DEFENCE_UP" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="#magicLevel" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -627,7 +629,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="CRITICAL_PROB_UP" />
 		<set name="affectRange" val="1000" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -726,7 +728,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="HIT_UP" />
 		<set name="affectRange" val="1000" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -825,7 +827,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="VAMPIRIC_ATTACK" />
 		<set name="affectRange" val="1000" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -2151,14 +2153,14 @@
 		<!-- Temporarily increases resistance to fire/water/wind/earth attack. Effect 3. -->
 		<set name="icon" val="icon.skill1352" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="3" />
 		<set name="abnormalTime" val="1200" />
 		<set name="abnormalType" val="MD_UP_ATTR" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="662" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="76" />
 		<set name="mpConsume" val="56" />
@@ -2177,14 +2179,14 @@
 		<!-- Temporarily increases resistance to dark/sacred attack. Effect 3. -->
 		<set name="icon" val="icon.skill1353" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="3" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="RESIST_HOLY_UNHOLY" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="666" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="77" />
 		<set name="mpConsume" val="56" />
@@ -2201,14 +2203,14 @@
 		<!-- Temporarily increases resistance to buff cancel and de-buff attack. Effect 3. -->
 		<set name="icon" val="icon.skill1354" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="3" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="RESIST_DEBUFF_DISPEL" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="662" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="76" />
 		<set name="mpConsume" val="56" />
@@ -2232,14 +2234,14 @@
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="669" />
 		<set name="effectRange" val="600" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="5" />
 		<set name="itemConsumeId" val="3031" /> <!-- Spirit Ore -->
 		<set name="magicLevel" val="78" />
 		<set name="mpConsume" val="58" />
 		<set name="mpInitialConsume" val="14" />
-		<set name="reuseDelay" val="120000" />
+		<set name="reuseDelay" val="60000" />
 		<effects>
 			<effect name="Buff">
 				<mul stat="mAtk" val="1.2" />
@@ -2263,7 +2265,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="669" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="5" />
 		<set name="itemConsumeId" val="3031" /> <!-- Spirit Ore -->
@@ -2282,6 +2284,9 @@
 				<mul stat="regHp" val="1.2" />
 				<mul stat="debuffVuln" val="0.9" />
 			</effect>
+			<effect name="HealPercent">
+				<param power="20" />
+			</effect>
 		</effects>
 	</skill>
 	<skill id="1357" levels="1" name="Prophecy of Wind">
@@ -2295,7 +2300,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="669" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="5" />
 		<set name="itemConsumeId" val="3031" /> <!-- Spirit Ore -->
@@ -2320,6 +2325,7 @@
 					</and>
 				</mul>
 				<mul stat="debuffVuln" val="0.9" />
+				<mul stat="runSpd" val="10" />
 			</effect>
 		</effects>
 	</skill>
@@ -2437,7 +2443,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="3" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="RESIST_DEBUFF_DISPEL" />
 		<set name="affectRange" val="1000" />
 		<set name="effectPoint" val="666" />
@@ -2495,7 +2501,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY_CLAN" />
 		<set name="abnormalLevel" val="3" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="CRITICAL_DMG_UP" />
 		<set name="affectRange" val="900" />
 		<set name="effectPoint" val="666" />
@@ -2517,7 +2523,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="PARTY_CLAN" />
 		<set name="abnormalLevel" val="3" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="MA_UP" />
 		<set name="affectRange" val="900" />
 		<set name="effectPoint" val="666" />
@@ -3241,6 +3247,7 @@
 		<!-- Level 2: Temporarily increases your target's P. Atk. Consumes 2 Spirit Ore. Effect 2. -->
 		<!-- Level 3: Temporarily increases your target's P. Atk. Consumes 3 Spirit Ore. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 1200</table>
 		<table name="#effectPoints">121 243 418</table>
 		<table name="#itemConsumeCount">1 2 3</table>
 		<table name="#magicLevel">58 66 74</table>
@@ -3251,7 +3258,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="PA_PD_UP" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -3275,6 +3282,7 @@
 		<!-- Level 2: Temporarily increases your target's P. Def. Consumes 2 Spirit Ore. Effect 2. -->
 		<!-- Level 3: Temporarily increases your target's P. Def. Consumes 3 Spirit Ore. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 1200</table>
 		<table name="#effectPoints">121 243 418</table>
 		<table name="#itemConsumeCount">1 2 3</table>
 		<table name="#magicLevel">58 66 74</table>
@@ -3285,7 +3293,7 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="PA_PD_UP" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="#effectPoints" />
@@ -3375,6 +3383,7 @@
 		<!-- Level 2: Temporarily increases your target's resistance to sacred attacks. Effect 2. -->
 		<!-- Level 3: Temporarily increases your target's resistance to sacred attacks. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 1200</table>
 		<table name="#holyRes">15 23 30</table>
 		<table name="#magicLevel">58 66 74</table>
 		<table name="#mpConsume">43 50 55</table>
@@ -3383,12 +3392,12 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="ARMOR_HOLY" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="121" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="#magicLevel" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -3405,6 +3414,7 @@
 		<!-- Level 2: Temporarily increases your target's resistance to dark attacks. Effect 2. -->
 		<!-- Level 3: Temporarily increases your target's resistance to dark attacks. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 1200</table>
 		<table name="#darkRes">15 23 30</table>
 		<table name="#magicLevel">58 66 74</table>
 		<table name="#mpConsume">43 50 55</table>
@@ -3413,12 +3423,12 @@
 		<set name="operateType" val="A2" />
 		<set name="targetType" val="ONE" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="#abnormalTime" />
 		<set name="abnormalType" val="ARMOR_UNHOLY" />
 		<set name="castRange" val="400" />
 		<set name="effectPoint" val="121" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="magicLevel" val="#magicLevel" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -3712,6 +3722,7 @@
 		<!-- Level 2: Temporarily decreases your target's MP consumption rate for skills. Consumes 2 Spirit Ore. Effect 2. -->
 		<!-- Level 3: Temporarily decreases your target's MP consumption rate for skills. Consumes 3 Spirit Ore. Effect 3. -->
 		<table name="#abnormalLevels">1 2 3</table>
+		<table name="#abnormalTime">3600 3600 1200</table>
 		<table name="#effectPoints">227 235 243</table>
 		<table name="#itemConsumeCount">1 2 3</table>
 		<table name="#MagicalMpConsumeRate">0.96 0.93 0.9</table>
@@ -3721,14 +3732,14 @@
 		<table name="#MpConsumeRate">0.9 0.85 0.8</table>
 		<set name="icon" val="icon.skill1397" />
 		<set name="operateType" val="A2" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="PARTY" />
 		<set name="abnormalLevel" val="#abnormalLevels" />
-		<set name="abnormalTime" val="1200" />
+		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="CHEAP_MAGIC" />
 		<set name="castRange" val="600" />
 		<set name="effectPoint" val="#effectPoints" />
 		<set name="effectRange" val="1100" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="2500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="#itemConsumeCount" />
 		<set name="itemConsumeId" val="3031" /> <!-- Spirit Ore -->
