@@ -40,4 +40,10 @@
 			<height normal="21.5" />
 		</collision>
 	</npc>
+	<npc id="900105" displayId="30059" type="Teleporter" name="Global Gatekeeper" usingServerSideName="true" title="Gatekeeper" usingServerSideTitle="true">
+		<collision>
+			<radius normal="9" />
+			<height normal="23" />
+		</collision>
+	</npc>
 </list>

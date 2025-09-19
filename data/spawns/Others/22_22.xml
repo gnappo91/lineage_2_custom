@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="22_22">
+		<npc id="900105" x="82770" y="148880" z="-3495" heading="11206" respawnDelay="60" /> <!-- Rex the Cat - Gatekeeper -->
+		<npc id="50008" x="82811" y="148742" z="-3495" heading="51870" respawnDelay="60" /> <!-- Rex the Cat - Scheme Buffer -->
+	</spawn>
+</list>
