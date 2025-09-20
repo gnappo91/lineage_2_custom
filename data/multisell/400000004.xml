@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list maintainEnchantment="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>45600</npc> <!-- General Shop -->
+	</npcs>
+	<item>
+		<!-- 10 Doom Plate Armor Set -->
+		<ingredient count="8000000" id="57" />
+		<!-- Set -->
+		<production count="1" id="2381" />  <!-- Doom Plate Armor -->
+		<production count="1" id="2417" />  <!-- Doom Helmet -->
+		<production count="1" id="5722" />  <!-- Doom Gloves - Heavy -->
+		<production count="1" id="5738" />  <!-- Doom Boots - Heavy -->
+	</item>
+</list>
